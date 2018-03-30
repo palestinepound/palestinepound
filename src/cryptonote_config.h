@@ -107,6 +107,7 @@
 #define ALLOW_DEBUG_COMMANDS
 
 #define CRYPTONOTE_NAME                         "palestinepound"
+#define GENESIS_COINBASE_TX_HEX                 ""
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "blockchain.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_TEMP_FILENAME "blockchain.bin.tmp"
