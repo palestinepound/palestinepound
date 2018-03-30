@@ -5,7 +5,9 @@ Copyright (c) 2014-2018, Palestine Pound, AEON, The Monero Project
 ## Development and Community Resources
 
 Web: http://www.palestinepound.org 
+
 Telegram: http://t.me/palestinepound
+
 Github: https://github.com/palestinepound
 
 
