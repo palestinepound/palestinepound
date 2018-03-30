@@ -1,4 +1,4 @@
-// Copyright (c) 2014, 2015 AEON, The Monero Project
+// Copyright (c) 2014, 2015, 2018 Palestine Pound, AEON, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -30,13 +30,6 @@
 
 #pragma once
 
-#define HARDFORK_1_HEIGHT                               592000
-#define HARDFORK_1_OLD_TARGET                           60
-#define HARDFORK_1_OLD_SPEED_FACTOR                     (20)
-#define HARDFORK_1_POW_SPEED_MULTIPLIER                 2
-#define HARDFORK_1_DIFFADJ                              HARDFORK_1_POW_SPEED_MULTIPLIER
-#define HARDFORK_1_DIFFADJ_WINDOW                       360
-
 #define CRYPTONOTE_MAX_BLOCK_NUMBER                     500000000
 #define CRYPTONOTE_MAX_BLOCK_SIZE                       500000000  // block header blob limit, never used!
 #define CRYPTONOTE_GETBLOCKTEMPLATE_MAX_BLOCK_SIZE	196608 //size of block (bytes) that is the maximum that miners will produce
@@ -52,8 +45,8 @@
 #define BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW               60
 
 // MONEY_SUPPLY - total number coins to be generated
-#define MONEY_SUPPLY                                    ((uint64_t)(-1))
-#define EMISSION_SPEED_FACTOR                           (18)
+#define MONEY_SUPPLY                                    (UINT64_C(51087812))
+#define EMISSION_SPEED_FACTOR                           (21)
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       20000 //size of block (bytes) after which reward for block calculated using block size
@@ -113,7 +106,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "aeon"
+#define CRYPTONOTE_NAME                         "palestinepound"
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "blockchain.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_TEMP_FILENAME "blockchain.bin.tmp"
@@ -122,6 +115,6 @@
 
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
 
-#define CONFIG_DONATION_ADDRESS                 "WmsSWgtT1JPg5e3cK41hKXSHVpKW7e47bjgiKmWZkYrhSS5LhRemNyqayaSBtAQ6517eo5PtH9wxHVmM78JDZSUu2W8PqRiNs"
+#define CONFIG_DONATION_ADDRESS                 ""
 
 #define DEFAULT_TX_SPENDABLE_AGE                10
