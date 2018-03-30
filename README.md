@@ -1,13 +1,13 @@
-# AEON
+# Palestine Pound
 
-Copyright (c) 2014-2017, AEON, The Monero Project
+Copyright (c) 2014-2018, Palestine Pound, AEON, The Monero Project
 
 ## Development and Community Resources
 
-Web: http://aeon.cash  
-Reddit: https://reddit.com/r/aeon  
-Github: https://github.com/aeonix/aeon  
-IRC: #aeon  
+Web: http://www.palestinepound.org 
+Telegram: http://t.me/palestinepound
+Github: https://github.com/palestinepound
+
 
 ## Introduction
 
@@ -31,9 +31,9 @@ cannot easily be tied back to an individual user or computer.
 
 ## About this Project
 
-This is the core implementation of AEON. It is open source and completely free to use
+This is the core implementation of Palestine Pound. It is open source and completely free to use
 without restrictions, except for those specified in the license agreement below. There are
-no restrictions on anyone creating an alternative implementation of AEON that uses the
+no restrictions on anyone creating an alternative implementation of Palestine Pound that uses the
 protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the
@@ -44,7 +44,7 @@ considered before using it in a production environment, unless there is a patch 
 repository for a particular show-stopping issue you are experiencing. It is generally
 a better idea to use a tagged release for stability.
 
-Anyone is able to contribute to AEON. If you have a fix or code change, feel free to
+Anyone is able to contribute to Palestine Pound. If you have a fix or code change, feel free to
 submit is as a pull request. In cases where the change is relatively small or does not
 affect other parts of the codebase it may be merged in immediately by any one of the
 collaborators. On the other hand, if the change is particularly large or complex, it
@@ -58,7 +58,7 @@ request being submitted, or even directly on the pull request.
 3. One cause of high resource usage and long processing delays is the periodic saving of the blockchain every 12 hours. Doing so requires access to the entire memory space and potentially large amounts of swapping. It can be disabled using the `--disable-save` option. The blockchain will still be saved on exit or upon request using the save command.
 4. If using the rpc wallet (simplewallet --rpc-bind-port), access to the wallet RPC port will allow sending funds from the wallet. By default the rpc port is bound to the loopback interface so access is only possible from the same system. You are responsible for appropriately controlling/limiting access to the port (eg. using virtualization, firewall settings, etc.) to prevent loss of funds. If not using the --rpc-bind-port the wallet does not accept remote commands and this issue does not apply.
 
-## Compiling AEON
+## Compiling Palestine Pound
 
 On Unix and Linux:
 
@@ -112,22 +112,11 @@ Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.53 or later.
   may want to run 'C:\program files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat'
   (or equivalent) to temporarily set the environment variables.
 
-## Building Documentation
 
-AEON developer documentation uses Doxygen, and is currently a work-in-progress.
-
-Dependencies: Doxygen 1.8.0 or later, Graphviz 2.28 or later (optional)
-
-- To build, change to the root of the source code directory, and run 'doxygen Doxyfile'
-
-- If you have installed Graphviz, you can also generate in-doc diagrams by instead running
-  'HAVE_DOT=YES doxygen Doxyfile'
-
-- The output will be built in doc/html/
 
 ## License
 
-Copyright (c) 2014-2017, AEON, The Monero Project
+Copyright (c) 2018, Palestine Pound, AEON, The Monero Project
 
 All rights reserved.
 
@@ -158,6 +147,36 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Parts of the project are originally copyright (c) 2012-2013 The Cryptonote developers
 
 ## Other License Information:
+
+Copyright (c) 2014-2017, AEON, The Monero Project
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of
+   conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of
+   conditions and the following disclaimer in the documentation and/or other materials
+   provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used
+   to endorse or promote products derived from this software without specific prior
+   written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Parts of the project are originally copyright (c) 2012-2013 The Cryptonote developers
 
 Copyright (c) 2014-2017, The Monero Project
 
