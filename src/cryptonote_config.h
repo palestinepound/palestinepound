@@ -81,8 +81,8 @@
 #define CRYPTONOTE_MEMPOOL_TX_LIVETIME                    86400 //seconds, one day
 #define CRYPTONOTE_MEMPOOL_TX_FROM_ALT_BLOCK_LIVETIME     604800 //seconds, one week
 
-#define P2P_DEFAULT_PORT                                11180
-#define RPC_DEFAULT_PORT                                11181
+#define P2P_DEFAULT_PORT                                1948
+#define RPC_DEFAULT_PORT                                1967
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
 
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
